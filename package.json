@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/s-soroczynski/repo_01#readme",
   "dependencies": {
-    "repo_as_dependency": "github:s-soroczynski/repo_as_dependency#0.2.0"
+    "repo_as_dependency": "github:s-soroczynski/repo_as_dependency#0.2.0",
+    "private_repo_as_dependency": "git+https://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:x-oauth-basic@github.com/s-soroczynski/private_repo_as_dependency",
+    "private_repo_as_dependency_02": "git+ssh://git@github.com:s-soroczynski/private_repo_as_dependency"
   }
 }

@@ -1,3 +1,5 @@
+const testPublicRepo = require('repo_as_dependency');
+const testPrivateRepo = require('private_repo_as_dependency');
 console.log('repo_01');
-const test = require('repo_as_dependency');
-test.test();
+testPublicRepo.test();
+testPrivateRepo.main();
